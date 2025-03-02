@@ -44,6 +44,7 @@ The plugin requires **TCPDF** to generate PDFs. Install it by using the method b
 2. You can modify the details button in Dashbord->Invoice to https://yourwebsite.com/wp-admin/admin-ajax.php?action=generate_invoice&booking_id=123 and replace 123 with reservation_id.
 3. Ensure the Directory has proper permission.
 4. Use FTP client to modify code in Wordpress.
+5. Use test-tcpdf.php to test if tcpdf is installed properly.
 
 ## License
 This project is licensed under the **MIT License**.
