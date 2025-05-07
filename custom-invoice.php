@@ -34,6 +34,7 @@ function generate_homey_invoice() {
     // Tax
     $sgst = round($taxes / 2, 2);
     $cgst = round($taxes / 2, 2);
+    $accomodation_total = $accomodation_total - $taxes;
     $total_amount = $accommodation_total + $taxes;
     $guest_name = $user_info->display_name ?? 'N/A';
     $guest_email = $user_info->user_email ?? 'N/A';
